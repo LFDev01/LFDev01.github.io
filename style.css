@@ -97,6 +97,10 @@ textarea {
 
 @media screen and (max-width: 870px) {
 
+   html {
+      font-size: 85%;
+   }
+
    .form-container {
       grid-template-columns: 1fr;
       gap: 0rem;
@@ -114,7 +118,7 @@ textarea {
 
 @media screen and (max-width: 500px) {
    html {
-      font-size: 85%;
+      font-size: 80%;
    }
 }
 
