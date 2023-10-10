@@ -89,6 +89,7 @@ textarea {
 }
 
 @media (max-width: 1000px) {
+
    html {
       font-size: 90%;
    }
@@ -97,7 +98,7 @@ textarea {
 @media screen and (max-width: 870px) {
 
    html {
-      font-size: 70%;
+      font-size: 85%;
    }
 
    .form-container {
@@ -112,5 +113,23 @@ textarea {
 
    .form-img {
       height: 200px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   html {
+      font-size: 70%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   html {
+      font-size: 65%;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   html {
+      font-size: 55%;
    }
 }
