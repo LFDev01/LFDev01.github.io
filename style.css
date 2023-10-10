@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+html {
+   transition: .3s;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+   user-select: none;
+}
+
+body {
+   display: flex;
+   height: 100vh;
+   background-color: #101010;
+   font-family: Arial;
+   font-family: 'Titillium Web', sans-serif;
+   margin: 0rem 2rem;
+}
+
+.form-container {
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.form-img {
+   width: 100%;
+   background-image: url('img/contact-img.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.form {
+   padding: 2rem 3rem;
+   background-color: #EDEDED;
+}
+
+.form h1 {
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   color: #101010;
+}
+
+.form-inputs {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.form-item span {
+   display: block;
+   margin-bottom: 5px;
+   font-size: 1.5rem;
+   color: #101010;
+}
+
+.form-item input,
+textarea {
+   width: 100%;
+   height: 2.1rem;
+   outline: none;
+   border: none;
+   box-sizing: border-box;
+   padding: 0.5rem;
+   font-size: 1rem;
+   background-color: #E4E4E4;
+}
+
+textarea {
+   height: auto;
+   resize: none;
+}
+
+.submit-btn {
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 0.8rem 1.5rem;
+   background: linear-gradient(180deg, #232222 0%, #101010 100%);
+   place-self: start;
+   color: #111;
+   margin-top: rem;
+   outline: none;
+   color: #E4E4E4;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+
+@media (max-width: 1000px) {
+
+   html {
+      font-size: 90%;
+   }
+}
+
+@media screen and (max-width: 870px) {
+
+   .form-container {
+      grid-template-columns: 1fr;
+      gap: 0rem;
+   }
+
+   .form {
+      padding: 1rem 2rem;
+      ;
+   }
+
+   .form-img {
+      height: 200px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   html {
+      font-size: 85%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   html {
+      font-size: 65%;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   html {
+      font-size: 55%;
+   }
+}
